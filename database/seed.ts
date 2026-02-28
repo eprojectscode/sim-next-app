@@ -10,13 +10,13 @@ async function main() {
 
 	await prisma.user.create({
 		data: {
-			name: "",
-			username: "",
-			email: "",
+			name: "Dana Moser",
+			username: "dmoser",
+			email: "dmoser@massart.edu",
 			admin: true,
 			image: "/faces/default.jpg",
-			pronouns: "",
-			link: "",
+			pronouns: "he/him",
+			link: "sim",
 		},
 	});
 
